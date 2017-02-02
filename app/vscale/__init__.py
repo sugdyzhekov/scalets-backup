@@ -30,8 +30,7 @@ class VscaleAPI:
                                   ' or env var `VSCALE_TOKEN`')
 
         self.api = "https://api.vscale.io/v1"
-        # 7ec99d8f3a0271c4049b697df472ec6c17f850dedcbc098c9c7873ef00f50b53
-        self.token = token = {'X-Token': vscale_token}  # global var
+        self.token = {'X-Token': vscale_token}  # global var
 
     def _prepare_call(self, func):
         def decorated():
