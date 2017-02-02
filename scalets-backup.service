@@ -9,5 +9,5 @@ After=docker.service
 
 [Service]
 ExecStartPre=/usr/bin/docker pull sugdyzhekov/scalets-backup
-ExecStart=docker run --env-file /etc/vscale.token sugdyzhekov/scalets-backup --name scalets-backup
+ExecStart=/usr/bin/docker run --env-file /etc/vscale.token --name scalets-backup sugdyzhekov/scalets-backup
 
