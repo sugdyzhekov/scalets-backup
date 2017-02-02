@@ -1,0 +1,9 @@
+[Unit]
+Description=Invoke scalet-backup every hour
+
+[Timer]
+OnCalendar=*-*-* *:00:00
+Unit=scalets-backup.service
+
+[Install]
+WantedBy=multi-user.target
