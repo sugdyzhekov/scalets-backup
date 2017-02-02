@@ -1,5 +1,4 @@
 [Install]
-WantedBy=multi-user.target
 
 [Unit]
 Description=Backup of vscale.io scalets
