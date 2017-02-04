@@ -1,5 +1,5 @@
 [Unit]
-Description=Invoke scalet-backup every hour
+Description=backup scalets in vscale.io
 
 [Timer]
 OnCalendar=*-*-* *:00:00
